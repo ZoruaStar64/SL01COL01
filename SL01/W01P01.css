@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+}
+
+footer {
+    padding: 5px;
+    background-color: darkgray;
+}
+
+ul {
+    display: inline-block;
+}
+
+li {
+    margin: 0 5px;
+}
+
+.personalDetailsBox {
+    background-color: white;
+    border: black 3px solid;
+    margin: 10px auto 10px auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.codingLanguageBox, .frameworkBox, .personalInfoBox {
+    display: inline-block;
+    border: black 3px solid;
+    width: 50%;
+    padding: 5px;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto 10px auto;
+    width: 80%;
+}
+
+.hobbyBox, .languageBox {
+    display: inline-block;
+    border: black 3px solid;
+    width: 50%;
+    padding: 5px;
+}
+
+.graduationBox {
+    border: black 3px solid;
+    margin: 10px auto 10px auto;
+    width: 50%;
+    padding: 5px;
+}
