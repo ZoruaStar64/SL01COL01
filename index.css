@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: darkgray;
+    border: black 3px solid;
+}
+
+a {
+    background-color: coral;
+    padding: 5px;
+    margin: 5px 5px;
+    border: black 3px solid;
+    display: inline-block;
+}
+
+footer {
+    background-color: darkgray;
+    margin-top: 10px;
+}
+
+main {
+    background-color: cornflowerblue;
+}
+
+.indexFooterText {
+    margin: auto 0 auto 20px;
+}
