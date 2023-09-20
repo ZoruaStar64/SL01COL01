@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set("Europe/Amsterdam");
     //General note: for some reason the date()'s hours seem to be 2 hours behind
 
     //Changes the Body's BackgroundColor depending on the time of day
