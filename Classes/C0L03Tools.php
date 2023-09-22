@@ -4,6 +4,7 @@ namespace Classes;
 
 class C0L03Tools
 {
+    //This sends the timebackgroundcolors to whatever requests them.
     public function sendTimeColors(): array
     {
         return $timeBackgroundColors = [

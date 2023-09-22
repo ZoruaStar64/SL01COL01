@@ -36,6 +36,7 @@ function returnTeamDetails()
     ];
 }
 
+//Returns the selected member's details so it can be displayed on the view page.
 function getMemberDetails($selectedMember) {
     $PSR = returnTeamDetails();
     return $memberDetails = $PSR[array_keys($selectedMember)[0]];

@@ -1,7 +1,10 @@
 <?php
 include "../Functions/teamDetails.php";
 include "../Functions/displayFunctions.php";
+
+//Uses the GET parameter from last/this page's link to obtain the details of the selected member.
 $memberDetails = getMemberDetails($_GET);
+//Quick if statement to display the enrolled value in readable text
 if ($memberDetails["isEnrolled"]) {
     $enrolled = "yes";
 } else {

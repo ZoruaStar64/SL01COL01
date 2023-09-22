@@ -5,6 +5,7 @@ include "../Functions/teamDetails.php";
 
 $PSR = returnTeamDetails();
 $i = 0;
+//Quick foreach loop using a GET parameter in the link to be used later.
 foreach ($PSR as $teamMember) {
     echo "<div>
     <h1>Team member details</h1>
